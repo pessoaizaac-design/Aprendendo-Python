@@ -1,5 +1,5 @@
-from agregacao import Produto
-from agregacao import CarrinhoDeCompras
+from Otavio.agregacao.agregacao import Produto
+from Otavio.agregacao.agregacao import CarrinhoDeCompras
 
 carrinho = CarrinhoDeCompras()
 
