@@ -1,5 +1,5 @@
-from agregracao import Produto
-from agregracao import CarrinhoDeCompras
+from agregacao import Produto
+from agregacao import CarrinhoDeCompras
 
 carrinho = CarrinhoDeCompras()
 
