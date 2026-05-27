@@ -31,9 +31,9 @@ class Circulo(Poligono):
         self.raio = raio
 
     def perimetro(self):
-        return 2 * 3,14 * self.raio
+        return 2 * 3.14 * self.raio
 
     def area(self):
-        return 3,14 * (self.raio ** 2)
+        return 3.14 * (self.raio ** 2)
 
     
