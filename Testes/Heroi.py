@@ -17,11 +17,11 @@ class Inimigo:
         self.ataque = ataque
         self.classe = classe
         
-      def atacar_heroi(self, heroi,):
+      def atacar_heroi(self, heroi):
         return f'{self.nome} atacou {heroi.nome} e de {heroi.vida} HP ele foi para {heroi.vida - self.ataque} HP'
     
 heroi = Heroi('Batman', 100, 20)
-inimigo = Inimigo('Coringa', 100, 10)
+inimigo = Inimigo('Arlequina', 50, 5)
 
 print(heroi.atacar_vilao(inimigo))
 print(inimigo.atacar_heroi(heroi))
