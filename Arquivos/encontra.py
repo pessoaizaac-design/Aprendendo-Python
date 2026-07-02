@@ -41,7 +41,7 @@ for raiz, diretorios, arquivos in os.walk(meu_caminho):
                 caminho_completo = os.path.join(raiz, arquivo)
                 nome_arquivo, ext_arquivo = os.path.splitext(arquivo)
                 tamanho = os.path.getsize(caminho_completo)
-                
+                conta +=1
                 print()
                 print('Encontrei o Arquivo:', arquivo)
                 print('Caminho:', caminho_completo)
