@@ -1,1 +1,1 @@
-Aprendendo python nível médio / avançado
+Aprendendo python nível médio
