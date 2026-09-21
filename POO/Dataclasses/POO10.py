@@ -1,5 +1,3 @@
-from dataclasses import dataclass, field
-
 # __str__
 
 class Student:
